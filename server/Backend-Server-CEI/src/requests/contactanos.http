@@ -1,0 +1,30 @@
+
+@api = http://localhost:4000/contactanos
+
+
+GET {{api}}
+
+
+###
+POST {{api}}
+
+Content-Type: application/json
+
+{
+    
+    "nombre": "diego",
+    "email": "diego@gmail.com",
+    "celular": 77887799,
+    "comentario": "diego montoya",
+    "fecha_registro": 2022-06-18 
+}
+###
+DELETE  {{api}}/6
+
+###
+PUT {{api}}/6
+Content-Type: application/json
+
+{
+    "nombre": "Alvaro"
+}
